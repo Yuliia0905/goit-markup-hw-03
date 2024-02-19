@@ -94,7 +94,7 @@ img {
 
 .main-nav {
   display: flex;
-  column-gap: 40px;
+  gap: 40px;
 }
 
 .nav-link {
@@ -118,7 +118,7 @@ img {
 }
 .adress-list {
   display: flex;
-  column-gap: 40px;
+  gap: 40px;
 }
 
 .address-link {
@@ -197,7 +197,7 @@ img {
 
 .benefits-list {
   display: flex;
-  column-gap: 24px;
+  gap: 24px;
 }
 
 /* Third section */
@@ -280,8 +280,7 @@ img {
 .portfolio-row {
   border: 1px solid #e7e9fc;
   border-top: none;
-  padding-bottom: 32px;
-  padding-left: 16px;
+  padding: 32px 16px;
 }
 
 .portfolio-item {
@@ -314,6 +313,8 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .logo-second {
@@ -325,5 +326,4 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
-  margin-top: 16px;
 }
